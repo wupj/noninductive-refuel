@@ -1,0 +1,76 @@
+{
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "加油订单"
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/car/index",
+			"style": {
+				"navigationBarTitleText": "我的车辆"
+			}
+		},
+		{
+			"path": "pages/car/bindCar",
+			"style": {
+				"navigationBarTitleText": "车辆绑定"
+			}
+		}, {
+			"path": "pages/invoice/index",
+			"style": {
+				"navigationBarTitleText": "加油开票"
+			}
+		}, {
+			"path": "pages/ledger/index",
+			"style": {
+				"navigationBarTitleText": "加油账本"
+			}
+		}, {
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#ff0000",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"text": "首页",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home-selected.png"
+		}, {
+			"pagePath": "pages/order/index",
+			"text": "加油订单",
+			"iconPath": "static/image/order.png",
+			"selectedIconPath": "static/image/order-selected.png"
+		}, {
+			"pagePath": "pages/my/index",
+			"text": "个人中心",
+			"iconPath": "static/image/my.png",
+			"selectedIconPath": "static/image/my-selected.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
